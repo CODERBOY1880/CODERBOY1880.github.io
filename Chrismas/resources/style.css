@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+@media(max-width:1440px) and (min-width:770px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        height: 64px;
+        padding: 24px;
+        position: sticky;
+        top: 0;
+        width:  96.4%;
+        background-color: white;
+        border-bottom: 5px solid  rgb(219, 219, 219);
+    }
+    .nav-left{
+        display: flex;
+        height: 32px;
+       
+    
+    }
+    .nav-left span{
+        color: rgb(233, 228, 228);
+    }
+    .nav-right ul{
+        display: flex;
+    }
+    .nav-right{
+      
+    }
+    .nav-right li{
+        margin: 16px;
+        list-style: none;
+    }
+    .nav-right a{
+        text-decoration: none;
+        color: black;
+    }
+    .nav2{
+        position: absolute;
+        top: -2000px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .intro{
+        height: 100vh;
+        background-color: rgb(219, 219, 219);
+        display: flex;
+    }
+    .intro img{
+        width: 60%;
+        margin: 32px 24px;
+    }
+    .intro h3{
+        font-size: 48px;
+        font-weight: 500%;
+        color: rgb(128, 126, 126);
+    }
+    .intro .text{
+        margin-top: 150px;
+    }
+    .text p{
+        margin-top: 20px;
+        font-size: 24px;
+        color: grey;
+        font-weight: 500%;
+    }
+    .text button{
+        margin-top: 30px;
+        width: 100%;
+        padding: 8px 0;
+        background-color:  rgb(128, 126, 126);
+        border: none;
+        cursor: pointer;
+    }
+    .text{
+        width: 30%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .hurt{
+        height: 120vh;
+        padding-top: 32px;
+        padding-bottom: 32px;
+       
+        display: flex;
+    }
+    .content{
+        width: 60%;
+        margin: 0 24px;
+    }
+    p{
+        color: rgb(125, 125, 125);
+    }
+    .content img{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .content h3{
+        margin-bottom: 24px;
+        font-size: 36px;
+    }
+    .content .em{
+        margin-top: 168px;
+    }
+    .side .sdiv{
+        display: flex;
+        padding: 16px;
+        background-color: rgb(252, 252, 252);
+        box-shadow: 5px 5px 10 rgb(205, 205, 205);
+    }
+    .side .sdiv:hover{
+        background-color: rgb(169, 169, 169);
+    }
+    .side .sdiv img{
+        height: auto;
+        width: 35%;
+    }
+    .sdiv div{
+        margin-left: 10px;
+        width: 65%;
+        margin: auto 10px;
+    }
+    .sdiv h4{
+        margin: 8px;
+    }
+    .sdiv p{
+        margin: 8px;
+    }
+    .sdiv a{
+        margin: 8px;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .learning{
+        height: 140vh;
+        padding: 32px 72px;
+        background-color: rgb(220, 220, 220);
+        
+    }
+    .learning h2{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .learning-container{
+        /* border: 1px solid red; */
+        width: 100%;
+        color: rgb(195, 195, 195);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .learning-container img{
+        height: auto;
+        width: 100%;
+        
+    }
+    .learning-container h3{
+        padding-top: 16px;
+        color: black;
+    
+    }
+    .learning-container h3,h4,p{
+        margin-left: 16px;
+    }
+    .learning-container h4,p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .learning-container div{
+        width: 337px;
+        margin: 32px;
+        background-color: white;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .thesis{
+        height: 100vh;
+        padding: 32px 0;
+        
+    }
+    .thesis h2{
+        text-align: center;
+    }
+    .tcontainer{
+        display: flex;
+        margin-top: 32px;
+    }
+    .tleft{
+        margin-left: 24px;
+        width: 60%;
+        margin-right: 24px;
+        margin-bottom: 24px;
+        height: auto;
+    }
+    .tleft iframe{
+        width: 100%;
+        height: 140%;
+    }
+    .tleft h3{
+        margin-bottom: 8px;
+    }
+    .tright{
+        width: 40%;
+    }
+    .tright .tdiv{
+        display: flex;
+    }
+    .tdiv img{
+        width: 35%;
+        height: auto;
+    }
+    .tdiv div{
+        margin-left: 16px;
+        width: 65%;
+        margin: auto 10px;
+    }
+    .tdiv img{
+        margin: 16px;
+    }
+    .tdiv:hover{
+        background-color: rgb(169, 169, 169);
+    }
+    
+    
+    
+    
+    
+    
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 24px;
+        border-top: 5px solid  rgb(219, 219, 219);
+    }
+    
+}
+
+
+
+@media (max-width:425px) and (min-width:320px){
+    body{
+        max-width: 320px;
+        height: 500vh;
+        /* border: 1px solid red; */
+        width: 320px;
+        
+    }
+    .nav2 ul{
+        display: flex;
+        justify-content: space-around;
+        height: 64px;
+       
+    }
+    .nav2 li{
+        list-style: none;
+    }
+    .nav2{
+        /* border: 1px solid red; */
+        padding-top: 20px;
+        position: fixed;
+        width: 320px;
+        background-color: white;
+    }
+    nav{
+        visibility: hidden;
+        top: -500px;
+        position: absolute;
+    }
+    
+
+
+
+    .intro img{
+        width: 320px;
+        margin-top: 80px;
+        
+    }
+    .intro{
+        background-color: rgb(219, 219, 219);
+        height: 100vh;
+        color: rgb(117, 117, 117);
+    }
+    .intro h3{
+        color: grey;
+        font-size: 34px;
+        margin-bottom: 32px;
+        font-weight: 500px;
+    }
+    .text{
+        padding: 32px 0;
+        padding-left: 16px;
+    }
+    .text button{
+        margin-top: 24px;
+        width: 270px;
+        padding: 8px 0;
+        background-color:  rgb(128, 126, 126);
+        border: none;
+        cursor: pointer;
+    }
+    .content{
+        visibility: hidden;
+        position: absolute;
+        left: -2000px;
+    }
+    .side{
+        padding: 16px;
+        padding-bottom: 32px;
+    }
+    .side div{
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    
+    .sdiv h4{
+        position: relative;
+        visibility: visible;
+        margin: 8px;
+        color: grey;
+    }
+    .sdiv p{
+        position: relative;
+        visibility: visible;
+        margin: 8px;
+    }
+    .sdiv a{
+        
+        margin: 8px;
+        text-decoration: none;
+    }
+
+
+
+    .learning h2{
+        text-align:center ;
+        padding-bottom: 32px;
+    }
+    .learning{
+        padding: 32px 16px;
+    }
+    .learning img,h4,p{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+    }
+    .learning-container h3{
+        background-color: rgb(190, 190, 190);
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        margin: 8px 0;
+    }
+    footer *{
+        /* border: 1px solid red; */
+    }
+    .thesis{
+        /* border: 1px solid red; */
+        padding-top: 32px;
+        padding-bottom: 24px;
+        height: 50vh;
+    }
+    .thesis h2{
+        text-align: center;
+        margin-bottom: 16px;
+
+    }
+    .thesis h3{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+    }
+    .tleft iframe{
+        margin: 0 10px;
+    }
+    .tright{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+    }
+    
+
+    .right{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+
+    }
+    footer{
+        text-align: center;
+       
+       
+    }
+
+    
+}
