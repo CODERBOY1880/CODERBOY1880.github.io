@@ -348,7 +348,7 @@
         margin: 8px;
         color: grey;
     }
-    .sdiv p{
+    .vs{
         position: relative;
         visibility: visible;
         margin: 8px;
@@ -368,7 +368,22 @@
     .learning{
         padding: 32px 16px;
     }
-    .learning img,h4,p{
+    .learning img{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+    }
+    .learning h4{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+    }
+    .learning p{
+        position: absolute;
+        visibility: hidden;
+        top: -2000px;
+    }
+    .thesis p{
         position: absolute;
         visibility: hidden;
         top: -2000px;
