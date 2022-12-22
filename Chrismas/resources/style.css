@@ -348,6 +348,11 @@
         margin: 8px;
         color: grey;
     }
+    .sdiv p{
+         position: relative;
+        visibility: visible;
+        margin: 8px;
+    }
     .vs{
         position: relative;
         visibility: visible;
