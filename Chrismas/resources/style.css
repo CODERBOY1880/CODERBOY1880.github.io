@@ -361,6 +361,11 @@
         margin: 8px;
         color: grey;
     }
+    .sdiv p{
+         position: relative;
+        visibility: visible;
+        margin: 8px;
+    }
     .vs{
         position: relative;
         visibility: visible;
@@ -451,6 +456,7 @@
 
 
     
+<<<<<<< HEAD
     
    
     
@@ -460,3 +466,6 @@
         margin: 0 auto;
     }
 }
+=======
+}
+>>>>>>> 7913dca2974d4a251f9183117301f36236fe63b3
