@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav li{
+    margin: 10px 20px;
+    list-style: none;
+}
+#droped{
+    position: absolute;
+    display: inline;
+    margin-top: 0;
+    visibility: hidden;
+
+    background-color: white;
+    transition: .5s;
+}
+#droped.active{
+    visibility: visible;
+    margin-top: 50px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    transition: color 1s;
+}
+nav li a:hover{
+    color: blue;
+}
+
+/* -----------------------------------------------intro------------------------------------------------------------- */
+.intro{
+    background-image: url(../resources/images/pexels-photo-355770.jpeg);
+    height: 693px;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.intro h2{
+    font-size: 96px;
+}
+.intro p{
+    margin: 10px auto;
+    width: 808px;
+}
+/* --------------------------------------------------intro2---------------------------------------------------------------- */
+.icons{
+    display: flex;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -80px;
+}
+.icons .one{
+    background-color: white;
+    width: 50%;
+    margin: 10px;
+    height: 30vh;
+    padding: 50px;
+    border-radius: 50%;
+    
+    
+
+}
+.icon{
+    background-color: rgb(238, 230, 230);
+    width: 100%;
+    height: 40vh;
+}
+.one div{
+    font-size: 50px;
+}
+.icons h4{
+    font-size: 50px;
+}
+
+.icons .one p{
+    margin-top: 20px;
+}
+
+
+/* --------------------------------------------------contact---------------------------------------------------------------- */
+
+
+.contact{
+    background-color: crimson;
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+    height: 355px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.contact button:hover{
+    background-color: black;
+    color: red;
+}
+
+/* --------------------------------------------------people---------------------------------------------------------------- */
+.people *{
+    /* border: 1px solid red; */
+    
+}
+.people{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.people img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.people .pdiv {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.pdiv h4{
+    font-size: 24px;
+}
+.people .pdiv div{
+    width: 250px;
+    padding-left: 25px;
+    
+}
+/* --------------------------------------------------uni---------------------------------------------------------------- */
+
+.uni{
+    height: 853px;
+    
+}
+.uni button{
+    width: 100%;
+    justify-content: left;
+    height: 100px;
+    padding-left: -200px;
+}
+.uni button:hover{
+    background-color: red;
+}
+.uni button:hover::after{
+    background-color: red;
+}
+.uni h2{
+    text-align: center;
+    font-size: 48px;
+    margin: 30px;
+}
+
+.hidden{
+    position: absolute;
+    height: 0vh;
+    top: 0;
+    transition: height 1s, top 1s, ;
+    padding: 30px;
+    overflow: hidden;
+    visibility: hidden;
+}
+.hidden.active{
+    height: 20vh;
+    visibility: visible;
+    position: relative;
+}
+
+
+/* --------------------------------------------------nina---------------------------------------------------------------- */
+
+.nina{
+    height: 552px;
+    
+}
+.nina .ppp{
+    font-size: 22px;
+    width: 823px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.nina img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.nina .pdiv {
+    display: flex;
+    margin-left: 400px;
+    letter-spacing: 20px;
+   
+    
+ 
+}
+.pdiv div{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.pdiv h4{
+    font-size: 48px;
+}
+.nina button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    background-color: red;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.nina button:hover{
+    background-color: black;
+    color: red;
+}
+
+
+
+/* --------------------------------------------------contructive innovation---------------------------------------------------------------- */
+.construct *{
+    /* border: 1px solid red; */
+}
+.construct{
+    height: 756px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 45% 45%;
+    gap: 0.5%;
+    justify-content: center;
+}
+.construct img{
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+}
+.construct h4{
+    font-size: 24px;
+}
+.construct div{
+    padding: 50px;
+}
+/* .construct :nth-child(5){
+    margin-left: 50px;
+} */
+.construct p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+.IT{
+    height: 953px;
+}
+.IT h2{
+    font-size: 48px;
+    width: 763px;
+}
+.IT p{
+    font-size: 16px;
+    color: rgb(148, 148, 148);
+}
+
+
+
+.it-div{
+    display: flex;
+}
+.it-div img{
+    width: 570px;
+    height: 455px;
+    margin-top: 350px;
+}
+.it-div-text{
+    margin-top: 170px;
+    width: 608px;
+    margin-left: 20px;
+}
+
+.text-div{
+    margin: 10px;
+    margin-left: 30px;
+}
+.text-div div{
+    margin-left: 200px;
+}
+.it-div-text li{
+    margin: 50px;
+    padding: 20px;
+}
+
+
+
+.logos{
+    height: 385px;
+    background-color: rgb(121, 29, 29);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 32px;
+}
+.logos div{
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    padding: 10px;
+}
+
+
+.demo-container{
+    height: 850px;
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    background-color: grey;
+}
+.demo-container *{
+    /* border: 1px solid red; */
+}
+.mikkel{
+    height: 750px;
+    background-color: white;
+    padding: 50px;
+}
+.mikkel img{
+    border-radius: 50%;
+    width: 180px;
+    margin-right: 10px;
+}
+.mikkel-intro{
+    display: flex;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+input::placeholder{
+    color: white;
+}
+.mikkel-text{
+    
+    margin: 50px 0;
+    width: 100%;
+}
+
+
+
+
+.demo{
+    height: 660px;
+    
+    padding: 50px;
+}
+.demo *{
+    margin: 10px;
+    padding: 10px;
+}
+.demo h2{
+    font-size: 48px;
+}
+input{
+    background-color: transparent;
+    width: 100%;
+}
+label p{
+    font-weight: 500;
+}
+form button{
+    width: 100%;
+    background-color: red;
+    border: none;
+}
