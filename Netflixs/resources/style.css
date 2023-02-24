@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+nav div{
+    height: 100px;
+    width: 200px;
+    
+}
+body{
+    background-color: #000;
+}
+
+svg{
+    color: red;
+    fill: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+nav a{
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: red;
+    height: fit-content;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.intro{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./NG-en-20221228-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 8px solid #222;
+    
+
+}
+
+
+h2{
+    font-size: 58px;
+    font-weight: 1500;
+    margin-bottom: 10px;
+}
+.content h3{
+    font-size: 28px;
+}
+.content{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.intro form{
+    margin-top: 20px; 
+    font-size: 27px;
+    position: relative;
+}
+.intro input{
+    width: 40%;
+    margin-left: -150px;
+    margin-top: 10px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: black;
+}
+.intro form a{
+    color: white;
+    margin-left: -7px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: red;
+    height: fit-content;
+    text-decoration: none;
+    
+}
+
+
+
+
+.tv{
+    height: 20%;
+    border-bottom: 8px solid #222;
+    display: flex;
+    padding: 32px;
+    gap: 10%;
+}
+.tv p{
+    font-size: 28px;
+}
+.tv-text h2{
+    margin-bottom: 30px;
+}
+.tv-text{
+    width: 60%;
+    
+    height: 100%;
+    margin: auto 0;
+}
+.tv-image img{
+    width: 40%;
+    position: relative;
+}
+.tv .our-story-card-video{
+    position: absolute;
+    margin-left: -560px;
+    margin-top: 99px;
+    z-index: -1;
+   
+}
+
+
+
+.ph{
+    height: 20%;
+    border-bottom: 8px solid #222;
+    display: flex;
+    padding: 32px;
+    gap: 10%;
+}
+.ph-text h2{
+    margin-bottom: 30px;
+}
+.ph-text{
+    
+    width: 60%;
+    height: 100%;
+    margin: auto 0;
+}
+.ph-img img{
+    width: 100%;
+    
+}
+.ph p{
+    font-size: 28px;
+}
+.ph-img{
+    width: 40%;
+    
+}
+
+
+.wth{
+    height: 20%;
+    border-bottom: 8px solid #222;
+    display: flex;
+    padding: 32px;
+    gap: 10%;
+}
+.wth-text h2{
+    margin-bottom: 30px;
+}
+.wth p{
+    font-size: 28px;
+}
+.wth-text{
+    
+    width: 60%;
+    height: 100%;
+    margin: auto 0;
+}
+
+
+
+.kids{
+    height: 20%;
+    border-bottom: 8px solid #222;
+    display: flex;
+    padding: 32px;
+    gap: 10%;
+}
+.kids-text h2{
+    margin-bottom: 30px;
+}
+.kids-text{
+    
+    width: 70%;
+    height: 100%;
+    margin: auto 0;
+}
+.kids-img img{
+    width: 100%;
+    
+}
+.kids p{
+    font-size: 28px;
+}
+.kids-img{
+    margin-top: 50px;
+    width: 50%;
+    
+}
+
+
+
+
+.question{
+    height: 110vh;
+    padding: 30px;
+    border-bottom: 8px solid #222;
+}
+.question h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.question form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.question form{
+    margin-top: 20px; 
+    
+    position: relative;
+}
+.question form p{
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.question input{
+    width:80%;
+   
+    margin-top: 10px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.question form a{
+    color: white;
+    margin-left: -7px;
+    position: absolute;
+    bottom: 0;
+    padding: 16px 20px;
+    cursor: pointer;
+    background-color: red;
+    height: fit-content;
+    text-decoration: none;
+    
+}
+
+
+
+.box{
+    margin: 10px 0;
+    background-color: grey;
+    padding: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#popup{
+    
+    position: absolute;
+    visibility: hidden; 
+    height: 0;
+    
+}
+#popup2{
+    
+    position: absolute;
+    visibility: hidden; 
+    height: 0;
+    
+}
+#popup3{
+    
+    position: absolute;
+    visibility: hidden; 
+    height: 0;
+    
+}
+#popup4{
+    
+    position: absolute;
+    visibility: hidden; 
+    height: 0;
+    
+}
+#popup5{
+    
+    position: absolute;
+    visibility: hidden; 
+    height: 0;
+    
+}
+#popup6{
+    
+    position: absolute;
+    visibility: hidden; 
+    height: 0;
+    
+}
+
+
+
+
+
+
+
+#popup.active{
+    height: fit-content;
+    position: relative;
+    visibility: visible;
+}
+#popup2.active2{
+    height: fit-content;
+    position: relative;
+    visibility: visible;
+}
+#popup3.active3{
+    height: fit-content;
+    position: relative;
+    visibility: visible;
+}
+#popup4.active4{
+    height: fit-content;
+    position: relative;
+    visibility: visible;
+}
+#popup5.active5{
+    height: fit-content;
+    position: relative;
+    visibility: visible;
+}
+#popup6.active6{
+    height: fit-content;
+    position: relative;
+    visibility: visible;
+}
+.l-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.footer{
+    height: 50vh;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 70px 0;
+    color: grey;
+    position: relative;
+}
+.footer ul{
+
+}
+.footer li{
+    list-style: none;
+    margin: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer a:hover{
+    border-bottom: ;
+    text-decoration: underline;
+}
+.footer p{
+    color: grey;
+}
+.top{
+    position: absolute;
+    top: 10%;
+    left: -10px;
+}
+

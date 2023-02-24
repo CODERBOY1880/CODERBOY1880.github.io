@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    background-image: linear-gradient( rgb(107, 212, 107), transparent), url(./resources/wp5231535-4k-gaming-wallpapers.jpg) ;
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    
+    transition:  2s;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    padding-left: 20px;
+    outline: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+nav li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    bottom: -10%;
+    left: 50%;
+    transition: .3s;
+    transform: translateX(-50%);
+}
+nav li:hover::after{
+    width: 50%;
+}
+.intro h1,p{
+    text-align: center;
+   
+    
+}
+p{
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 108px;
+    letter-spacing: 10px;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    font-weight: 1000;
+}
+h2{
+    color: ;
+    cursor: pointer;
+}
+.intro{
+    margin: auto 0;
+    padding: 150px 0;
+    
+
+}
+.lost{
+    display: flex;
+    margin: 0 auto;
+}
+a{
+    
+    margin: 0 auto;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+a::after{
+    content: '';
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to right, green, white);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 0;
+    color: black;
+    border-radius: 50px;
+    transition: .5s;
+}
+a:hover::after{
+    width: 100%;
+    
+    
+}
+
+.footer{
+    align-items: center;
+    margin-top: -30px;
+    
+}
+span{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+    left: 40%;
+}
+.blue{
+    background-color: blue;
+    right: 35%;
+}
+.green{
+    background-color: green;
+    left: 50%;
+}

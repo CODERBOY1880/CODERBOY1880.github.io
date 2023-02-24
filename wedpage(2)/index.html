@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookFlixs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h2>BookFlixs</h2>
+        <ul>
+            <li>Home</li>
+            <li>Content</li>
+            <li>About us</li>
+        </ul>
+        <input type="text" placeholder="search">
+    </nav>
+
+    <div class="intro">
+        <h1>BookFlixs</h1>
+        <p>Come watch exciting Movies with us</p>
+        <div class="lost">
+            <a href="#">watch Now</a>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    <div class="footer">
+        <span class="red" onclick="Redbg()"></span>
+        <span class="blue" onclick="bluebg()"></span>
+        <span class="green" onclick="greenbg()"></span>
+    </div>
+    <script>
+        let body = document.querySelector('body')
+        let h1 = document.querySelector('h1')
+        let redbtn = document.getElementsByClassName('red')
+        function Redbg(){
+            body.style.backgroundImage = 'linear-gradient( rgb(216, 107, 107), transparent), url(./resources/wp5231535-4k-gaming-wallpapers.jpg)'
+            
+        }
+        let greenbtn = document.getElementsByClassName('green')
+        function greenbg(){
+            body.style.backgroundImage = 'linear-gradient( rgb(107, 212, 107), transparent), url(./resources/wp5231535-4k-gaming-wallpapers.jpg'
+        }
+        let bluebtn = document.getElementsByClassName('blue')
+        function bluebg(){
+            body.style.backgroundImage = ' linear-gradient(rgb(109, 107, 216), transparent), url(./resources/wp5231535-4k-gaming-wallpapers.jpg)'
+        }
+    </script>
+</body>
+</html>
